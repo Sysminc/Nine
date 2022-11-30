@@ -7,7 +7,7 @@
 * {
 	margin: 0;
 	padding: 0;
-        overflow: hidden;
+        overflow-x: hidden;
 }
 
 body {
@@ -25,6 +25,7 @@ h1 {
 	font-size: 60px;
 	line-height: 1.2;
 	margin-bottom: 15px;
+        overflow-y: hidden;
 }
 
 /* NAV */ 
@@ -40,6 +41,7 @@ h1 {
 
 /* Lading Page Home */
 .showcase {
+        overflow-y: hidden;
 	height: 100vh;
 	display: flex;
 	align-items: center;
@@ -103,12 +105,14 @@ h1 {
 
 /* ABOUT */
 #about {
+        overflow-y: hidden;
 	padding: 200px 0 200px 0;
 	font-size: 1.2rem;
 }
 
 /* Article */
 #article-1 {
+        overflow-y: hidden;
 	background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80");
 	background-size: cover;
 	background-color: blueviolet;
@@ -118,6 +122,7 @@ h1 {
 
 
 #article-2 {
+        overflow-y: hidden;
 	background-image: url("https://images.unsplash.com/photo-1578469550956-0e16b69c6a3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1406&q=80");
 	background-size: cover;
     background-color: azure;
@@ -126,6 +131,7 @@ h1 {
 }
 
 #article-3 {
+        overflow-y: hidden;
 	background-image: url("https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
 	background-size:  cover;
     background-color: antiquewhite;
@@ -134,6 +140,7 @@ h1 {
 }
 
 #article-4 {
+        overflow-y: hidden;
 	background-image: url("https://images.unsplash.com/photo-1560732488-6b0df240254a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
 	background-size: cover;
     background-color: wheat;
@@ -142,6 +149,7 @@ h1 {
 }
 
 #article-5 {
+        overflow-y: hidden;
 	padding: 0 0 0 0;
 }
 
@@ -166,6 +174,7 @@ h1 {
 /* CARD  */
 
 .glass-card-1 {
+        overflow-y: hidden;
 	width: 80%;
 	margin: auto;
 	border-radius: 10px;
@@ -174,6 +183,7 @@ h1 {
 }
 
 .glass-card-2 {
+        overflow-y: hidden;
 	margin: 10px;
 	width: 80%;
 	border-radius: 10px;
@@ -182,6 +192,7 @@ h1 {
 }
 
 .glass-card-3 {
+        overflow-y: hidden;
 	float: right;
 	margin: 10px;
 	width: 80%;
