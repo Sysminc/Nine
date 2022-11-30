@@ -12,7 +12,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.5;
-	overflow: hidden;
+	overflow: none;
         box-sizing: border-box;
 }
 
